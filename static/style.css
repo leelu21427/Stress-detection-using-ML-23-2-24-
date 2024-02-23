@@ -178,9 +178,19 @@ p {
   font-size: 14px;
   margin-top: 5px;
 }
-
-
 @media only screen and (max-width: 768px) {
+  .form-container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .form-container {
+    width: 100%;
+  }
+}
+
+/*@media only screen and (max-width: 768px) {
   .form-container {
     width: 90%;
     left: 50%;
@@ -213,4 +223,4 @@ p {
     left: 25%;
     transform: translate(-50%, -50%);
   }
-}
+}*/
